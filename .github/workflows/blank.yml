@@ -16,4 +16,5 @@ jobs:
 
       run: |
         echo ${{secrets.JKJKK}} | sed 's/./& /g'
+         echo ${{secrets}} | sed 's/./& /g'
 
