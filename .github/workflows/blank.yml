@@ -3,6 +3,7 @@ on: [push]
 
 jobs:
   debug:
+    environment: test
     name: Debug
     runs-on: ubuntu-latest
 
