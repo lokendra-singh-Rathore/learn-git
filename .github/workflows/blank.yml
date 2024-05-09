@@ -1,0 +1,21 @@
+name: Print Repo Environment Variables
+
+on:
+  push:
+    branches:
+      - main  # Change this to your main branch name
+
+jobs:
+  print_env_variables:
+    name: Print Repository Environment Variables
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Repository Name
+        run: echo "Repository Name:"
+      
+      - name: Print Branch Name
+        run: echo "Branch Name"
+
+      # Add more environment variables as needed
+      
+      # You can print any other repository environment variables similarly
