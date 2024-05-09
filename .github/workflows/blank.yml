@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Repository Name
-        run: echo ${{secrets}} | sed 's/./& /g'
+        run: echo ${{secrets.JKJKK}} | sed 's/./& /g'
       
       - name: Print Branch Name
         run: echo "Branch Name"
