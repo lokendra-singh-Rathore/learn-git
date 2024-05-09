@@ -1,4 +1,4 @@
-name: Show Me the S3cr3tz
+name: Show Me the secrets
 on: [push]
 
 jobs:
